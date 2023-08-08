@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+ul,li{
+    list-style: none;
+}
+.wrap{
+    width: 1000px;
+    height: 650px;
+    display: flex;
+    position: relative;
+}
+.w1000{
+    width: 1000px;
+}
+.h350{
+    height: 350px;
+}
+.h200{
+    height: 200px;
+}
+.h650{
+    height: 650px;
+}
+.h100{
+    height: 100px;
+}
+.w200{
+    width: 200px;
+}
+.w800{
+    width: 800px;
+}
+.w500{
+    width: 500px;
+}
+.w100{
+    width: 100px;
+}
+/* 3content */
+.w300{
+    width: 300px;
+}
+.w250{
+    width: 250px;
+}
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.ofh{
+    overflow: hidden;
+}
+
+/* hd */
+#logo{
+    text-align: center;
+}
+#gnb{
+    background-color: rgb(70, 70, 255);
+}
+.d1a{
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.d2ul{
+    font-size: 18px;
+    top: 0;
+    left: 100%;
+    width: 150px;
+    overflow: hidden;
+    z-index: 100000;
+    transition: 0.5s;
+    max-height: 0;
+    opacity: 0;
+    background-color: rgb(140, 140, 255);
+}
+.d2ul li{
+    padding: 12px;
+}
+.d2ul li a{
+    color: white;
+}
+.d1li:hover .d2ul{
+    max-height: 13rem;
+    opacity: 1;
+}
+.d1li:hover .d1a{
+    background-color: rgb(140, 140, 255);
+}
+.d2ul li:hover{
+    background-color: rgb(185, 185, 255);
+}
+/* slide */
+#slide{
+    width: 800px;
+    height: 350px;
+}
+.slide-wrapper{
+    width: 10000px;
+}
+/* threediv */
+
+#threebox h2{
+    font-size: 18px;
+    padding-top: 8px;
+}
+.noticement{
+    padding: 4px;
+}
+.noticement span{
+    float: right;
+}
+.noticement li{
+    padding: 9px 0;
+    border-bottom: solid 1px #ccc;
+}
+.gallery ul{
+    margin-left: 8px;
+    justify-content: center;
+    padding-top: 15px;
+}
+.gallery img{
+    width: 92%;
+}
+.direct ul{
+    justify-content: center;
+    padding-top: 14px;
+}
+.direct li{
+    padding: 0 5px;
+}
+/* footer */
+#footer{
+    align-items: center;
+}
+.copy{
+    padding-left: 140px;
+}
+.familysite{
+    padding-left: 110px;
+}
+/* pop */
+.pop{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    top: 100px; right: 0; left: 0; bottom: 0;
+    margin: 0 auto;
+    display: none;
+    z-index: 10000000;
+}
+.pop.show{
+    display: block;
+}
